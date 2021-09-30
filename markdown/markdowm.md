@@ -1,3 +1,31 @@
+# w02_0930
+
+#### Todo Demo
+
+**App_31.js**
+
+```jsx
+import Todo_31 from './components/Todo_31';
+import './App.css';
+
+function App_31() {
+  return (
+    <div>
+      <h1>My Todo</h1>
+      <Todo_31 text="Learn React" />
+      <Todo_31 text="Learn Math" />
+      <Todo_31 text="Learn Engilsh" />
+    </div>
+  );
+}
+export default App_31;
+```
+
+![src/app.js](App_31.js.png)
+
+**index.js**
+
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -15,3 +43,8 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+```
+
+![src/index.js](index.js.png)
+
+![localhost](localhost.png)
